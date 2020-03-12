@@ -2,6 +2,30 @@
 <html>
 <head>
 <style>
+ul {
+list-style-type:none;
+margin:0;
+padding:0;
+background-color:#55355
+border:1px solid black;
+
+}
+li a{
+display :block;
+width:80px;
+padding:8px 16px;
+color:#000;
+}
+li a.active{
+background-color:green;
+color:white;
+}
+li a:hover{
+background-color:black;
+color:white;
+}
+
+
 div {
   background-color: #4CAF50;
   padding: 10px;
@@ -22,7 +46,6 @@ div.background{
 border:2px solid black;
 background:url(/home/Sem6B12/Desktop/unnamed.jpg);
 width:50%;
-:right;
 }
 div.transbox{
 margin :45px;
@@ -35,10 +58,17 @@ div .transbox p{
 margin:30px;
 font-weight:bold;
 color:black;
+}
+
 </style>
 </head>
 <body>
-
+<ul>
+<li><a href="defualt.asp">home</a></li>
+<li><a href="news.asp">news</a></li>
+<li><a href="images.asp">images</a></li>
+<li><a href="about.asp">about</a></li>
+</ul>
 <h1>Transparent Box</h1>
 <p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
 
