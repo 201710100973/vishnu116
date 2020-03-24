@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,12 +6,8 @@
   box-sizing: border-box;
 }
 
-body {;
-
-  font-family: Arial, Helvetica, sans-serif  background-color:lightgreen;
-  background-image: url("https://images.search.yahoo.com/search/images;_ylt=Awr9F68XkXdezN0AIx2JzbkF?p=dirtbikes&ei=UTF-8&fr=mcafee&imgc=brown&fr2=p%3.jpg");
-  width: 99%;
-  border-image-repeat: none;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Float four columns side by side */
@@ -23,7 +18,7 @@ body {;
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 25px;}
+.row {margin: 0 -5px;}
 
 /* Clear floats after the columns */
 .row:after {
@@ -43,14 +38,15 @@ body {;
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 20px 20px 0 black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: orange;
-  width:100%;
+  background-color: #f2f2f2;
 }
 
-
+body {
+  background-color:lightblue;
+}
 
 ul {
   list-style-type: none;
@@ -58,7 +54,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  text-align: center;
 }
 
 li {
@@ -82,11 +77,8 @@ img{
   width: 200px;
   height: 200px;
 }
-
-
 </style>
 </head>
-<!--body !--background=" https://i.imgur.com/Cu91e9j.jpg"-->
 <body>
 <ul>
   <li><a class="active" href="#home">Home</a></li>
@@ -94,39 +86,50 @@ img{
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
-<p><h1><u><center>RESUME</u></center></h1></p><div style="align:center">
+<p><h1><u><center>choose you'r Bike</u></center></h1></p><div style="align:center">
 
 <!--h2>Responsive Column Cards</h2>
 <p>Resize the browser window to see the effect.</p-->
-<a href="edu.html">
+
 <div class="row">
   <div class="column">
     <div class="card">
       <h3>Card 1</h3>
-      <img src="https://i.imgur.com/4">
-      <p>EDUCATION QUALIFICATION</p>
+      <img src="https://i.imgur.com/vFtY5yb.jpg">
+      <p>cruiser</p>
     </div>
-  </div></a>
- <a href="per.html">
+  </div>
+
   <div class="column">
     <div class="card">
       <h3>Card 2</h3>
-      <img src="https://i.imgur.com/5Yh">
-      <p>PERSONAL DETAILS</p>
+      <img src="https://i.imgur.com/5Yhsg45.jpg">
+      <p>supersport</p>
     </div>
   </div>
-  <a href="quali.html">
+  
   <div class="column">
     <div class="card">
     <h3>Card 3</h3>
-    <img src="https://i.imgur.com/vFtY5yb">
-      <p>QUALIFICATION</p>
+    <img src="https://i.imgur.com/4HlGgsT.jpg">
+      <p>chopper</p>
     </div>
   </div>
   
-  
+  <div class="column">
+    <div class="card">
+      <h3>Card 4</h3>
+      <img src="https://i.imgur.com/vFtY5yb.jpg.jpg">
+      <p>scooter</p>
+    </div>
+  </div>
 </div>
-
+</div>
+  
+ <center><form>
+<h1><B>SEARCH</B></h1> <input type="text" name="search" placeholder="location.">
+  </form></center>
+  
 
 
 </body>
