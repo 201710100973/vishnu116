@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {;
+
+  font-family: Arial, Helvetica, sans-serif  background-color:lightgreen;
+  background-image: url("https://images.search.yahoo.com/search/images;_ylt=Awr9F68XkXdezN0AIx2JzbkF?p=dirtbikes&ei=UTF-8&fr=mcafee&imgc=brown&fr2=p%3.jpg");
+  width: 99%;
+  border-image-repeat: none;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 25px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 20px 20px 0 black;
+  padding: 16px;
+  text-align: center;
+  background-color: orange;
+  width:100%;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #888;
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+
+</style>
+</head>
+<!--body !--background=" https://i.imgur.com/Cu91e9j.jpg"-->
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">report</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<p><h1><u><center>RESUME</u></center></h1></p><div style="align:center">
+
+<!--h2>Responsive Column Cards</h2>
+<p>Resize the browser window to see the effect.</p-->
+<a href="p3.html">
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      <img src="https://i.imgur.com/4">
+      <p>EDUCATION QUALIFICATION</p>
+    </div>
+  </div></a>
+ <a href="g1.html">
+  <div class="column">
+    <div class="card">
+      <h3>Card 2</h3>
+      <img src="https://i.imgur.com/5Yh">
+      <p>PERSONAL DETAILS</p>
+    </div>
+  </div>
+  <a href="p5.html">
+  <div class="column">
+    <div class="card">
+    <h3>Card 3</h3>
+    <img src="https://i.imgur.com/vFtY5yb">
+      <p>QUALIFICATION</p>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+
+</body>
+</html>
