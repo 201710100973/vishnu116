@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif  background-color:lightgreen;
+  background-image: url("BG.jpg");
+  width: 99%;
+  border-image-repeat: none;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* Float four columns side by side */
+.column {
+  float: center;
+  width: 25%;
+  padding: 0 10px;
+  margin:20px;
+  margin-top:30px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 25px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top:20px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 20px 20px 0 black;
+  padding: 8px;
+  text-align: center;
+  background-color: orange;
+  width:100%;
+  /*margin-left:10px;*/
+  margin:20px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #888;
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+
+</style>
+</head>
+<!--body !--background=" https://i.imgur.com/Cu91e9j.jpg"-->
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">report</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<p><h1><u><center>RESUME</u></center></h1></p><div style="align:center">
+<center>
+<!--h2>Responsive Column Cards</h2>
+<p>Resize the browser window to see the effect.</p-->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      <img src="education qualification.png"></br>
+      <p><a href="education.html">
+        EDUCATION QUALIFICATION</a></p>
+     <p><a href="education.html">
+        click!</a></p>
+    </div>
+  </div>
+ 
+  <div class="column">
+    <div class="card">
+      <h3>Card 2</h3>
+      <img src="profile12.png"></br>
+      <p><a href="per.html">PERSONAL DETAILS</a></p>
+    <p><a href="per.html">click!</a></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+    <h3>Card 3</h3>
+      <img src="skills.jpg" width="100%"></br>
+    <p><a href="quali.html">SKILLS</a></p>
+    <p><a href="quali.html">click!</a></p>
+    </div>
+  </div>
+    </center>
+  
+</div>
+<A href=index.html><mark>home</mark></a>
+
+
+</body>
+</html>
